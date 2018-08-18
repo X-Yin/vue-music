@@ -60,7 +60,7 @@
         <div class="mini-album-wrapper" ref="miniCd">
           <img :src="currentSong.image" class="mini-album" @click="bgHide()" ref="minialbum">
         </div>
-        <div class="mini-description">
+        <div class="mini-description" @click="bgHide()">
           <div class="mini-song-name">{{currentSong.songname}}</div>
           <div class="mini-singer-name">{{currentSong.singername}}</div>
         </div>
