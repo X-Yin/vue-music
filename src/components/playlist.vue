@@ -314,7 +314,7 @@ export default {
     margin-bottom: 60px;
   }
   .btn {
-    width: 150px;
+    width: auto;
     height: 30px;
     border-radius: 15px;
     border: 1px solid #ccc;
