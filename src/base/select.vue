@@ -47,7 +47,6 @@ export default {
   .select-btn {
     width: 200px;
     height: 50px;
-    border: 1px solid #333;
     margin-left: 50%;
     transform: translateX(-50%);
     display: flex;
