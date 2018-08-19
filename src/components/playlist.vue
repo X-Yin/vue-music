@@ -25,7 +25,7 @@
               <span class="add-text">添加歌曲到队列</span>
             </div>
           </div>
-          <div class="close" @click.stop="hide()">
+          <div class="close" @click.stop="hide($event)" ref="close">
             关闭
           </div>
           <transition name="slide">
@@ -166,7 +166,7 @@ export default {
       })
     },
     hide (e) {
-      if (e.target === this.$refs.playlist) {
+      if (e.target === this.$refs.playlist || e.target === this.) {
         this.$emit('hide')
       }
     },
