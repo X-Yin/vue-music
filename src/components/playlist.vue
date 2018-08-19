@@ -166,7 +166,7 @@ export default {
       })
     },
     hide (e) {
-      if (e.target === this.$refs.playlist || e.target === this.) {
+      if (e.target === this.$refs.playlist || e.target === this.$refs.close) {
         this.$emit('hide')
       }
     },
