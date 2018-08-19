@@ -554,14 +554,14 @@ export default {
   }
   .progress-bar-wrapper {
     position: absolute;
-    bottom: 130px;
+    bottom: 100px;
     width: 100%;
   }
   .icon-control {
     width: 100%;
     position: absolute;
     bottom: 0px;
-    height: 100px;
+    height: 70px;
     display: flex;
     padding: 0 20px;
     box-sizing: border-box;
