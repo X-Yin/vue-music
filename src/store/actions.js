@@ -39,6 +39,7 @@ const actions = {
     commit('setSequenceList', list)
     commit('setPlayList', list1)
     commit('setCurrentIndex', 0)
+    commit('setPlayingState', true)
   },
   deleteOneSong ({commit, state}, song) {
     let list1 = state.sequenceList.slice()
